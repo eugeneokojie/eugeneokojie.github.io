@@ -1,0 +1,122 @@
+.page-1{
+    background-color: aqua;
+    background-image: url(images/EEEEEE.jpg);
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-weight: 100;
+    background-position: relative;
+    color: blanchedalmond;
+    border-image: auto;
+}
+.page-2{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-3{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.page-4{
+background-color: aqua;
+font-family: Arial, Helvetica, sans-serif;
+}
+.page-5{
+    background-color: aqua;
+    text-align: center;
+    display: Bold;
+    letter-spacing: 0.1em;
+    text-decoration: underline;
+    padding: auto;
+    border: dotted;
+    margin-bottom: 40px;
+}
+h1{
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-decoration-line: underline;
+    
+    
+}
+a:hover{
+    color: indigo;
+}
+a:active{
+    color: red;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    color: darkblue;
+    text-align: left;
+    text-decoration: underline;
+}
+
+.header{
+background-color: whitesmoke; 
+}
+.logo{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 100%;
+}
+.A{
+    margin-left: 300px;
+    border-radius: 40px;
+
+}
+.box-1{
+    margin-top: 50px;
+    margin-left: 400px;
+    padding: auto;
+}
+.B{
+    margin-bottom: auto;
+    color: white;
+    font-size: bold;
+}
+.box-1{
+    image-resolution: png;
+    background-image: url(images/);
+    padding: auto;
+}
+/* for desktop */
+.whatsapp_float {
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+        font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+        z-index:100;
+}
+
+.whatsapp-icon {
+	margin-top:16px;
+}
+/* for mobile */
+@media screen and (max-width: 767px){
+     .whatsapp-icon {
+	 margin-top:10px;
+     }
+    .whatsapp_float {
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+        font-size: 22px;
+    }
+    
+    
